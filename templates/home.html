@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+	<head>
+	<title>Stockyy</title>
+	</head>
+<body>
+	{% if error %}
+         <p><strong>Error:</strong> {{ error }}
+    {% endif %}
+	<form method="POST">
+		<h1 align="center">Welcome to Stockyy</h1>
+		<h4 align="center">Get your stock evaluated in just one-click.</h4>
+		
+		Enter Data Source Quandl Code: <input type="text" name="datapath" required>
+		<br/>
+		<input type="submit" value="Evaluate"> </br>
+		<h6>Note: We only process Bombay Stock Exchange Stocks. Get your data source quandl code using the below step:</h6>
+		<h6>www.quandl.com>financial data> search(Bombay Stock Exchange)> click(Bombay Stock Exchange)>Browse and Select your stock data> Expand> Quandl Code - Python</h6>
+	</form
+</body>
+</html>
